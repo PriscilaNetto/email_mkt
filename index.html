@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="x-apple-disable-message-reformatting" />
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no" />
+  <title></title>
+  <!-- CSS Reset : INICIO -->
+  <style>
+    html,
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+    }
+
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    th {
+      font-weight: normal;
+    }
+
+    table {
+      border-spacing: 0 !important;
+      /* border-collapse: collapse !important; */
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    a[x-apple-data-detectors],
+    /* iOS */
+    .unstyle-auto-detected-links a,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .im {
+      color: inherit !important;
+    }
+
+    .a6S {
+      display: none !important;
+      opacity: 0.01 !important;
+    }
+
+    /* Se o acima não funcionar, adicione uma classe .g-img a qualquer imagem em questão. */
+    img.g-img+div {
+      display: none !important;
+    }
+
+    /* iPhone 4, 4S, 5, 5S, 5C, e 5SE */
+    @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+      u~div .email-container {
+        min-width: 320px !important;
+      }
+    }
+
+    /* iPhone 6, 6S, 7, 8, e X */
+    @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+      u~div .email-container {
+        min-width: 375px !important;
+      }
+    }
+
+    /* iPhone 6+, 7+, e 8+ */
+    @media only screen and (min-device-width: 414px) {
+      u~div .email-container {
+        min-width: 414px !important;
+      }
+    }
+
+    /* CSS Reset : FIM */
+  </style>
+
+  <style>
+    /* .button-td,
+      .button-a {
+        transition: all 100ms ease-in;
+      }
+      .button-td-primary:hover,
+      .button-a-primary:hover {
+        background: #555555 !important;
+        border-color: #555555 !important;
+      } */
+
+    /* Media Queries */
+    @media screen and (max-width: 640px) {
+      .email-container {
+        width: 100% !important;
+        margin: auto !important;
+      }
+
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      .center-on-narrow {
+        text-align: center !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+      }
+
+      table.center-on-narrow {
+        display: inline-block !important;
+      }
+
+      .hideThis {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+
+<!--
+        A cor de fundo do email (# 222222) é definida em três locais:
+        1. tag body: para a maioria dos clientes de email
+        2. marca central: para aplicativos móveis do Gmail e do Inbox e versões da Web do Gmail, GSuite, Caixa de entrada, Yahoo, AOL, Líbero, Comcast, freenet, Mail.ru, Orange.fr
+        3. mso condicional: para o Windows 10 Mail
+    -->
+
+<body width="100%" style="
+      margin: 0;
+      padding: 0 !important;
+      mso-line-height-rule: exactly;
+      background-color: #ffffff;
+    ">
+  <center style="width: 100%; background-color: #ffffff">
+    <div style="
+        display: none;
+        font-size: 1px;
+        line-height: 1px;
+        max-height: 0px;
+        max-width: 0px;
+        opacity: 0;
+        overflow: hidden;
+        mso-hide: all;
+        font-family: sans-serif;
+      ">
+    </div>
+
+    <div
+      style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+      &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+
+    <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="640"
+      style="margin: auto;" class="email-container">
+      <!-- Email Header : INICIO -->
+      <tr>
+        <img src="../teste_dev_front/images/IADC01.png" width="70%" height="auto" alt="logo_itaucard" border="0"
+          style="max-width: 640px; margin: auto;  padding: 20px; ">
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: #fd6600;">
+
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td style="padding: 10px 30px; max-width: 640px; display:block ;">
+                <img src="../teste_dev_front/images/IADC02.png" width="100%" height="auto" alt="img-avião" border="0">
+                <img src="../teste_dev_front/images/IADC03.png" width="100%" height="auto" alt="texto" border="0">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="text-align: left; padding: 20px 60px 30px 60px; font-family: sans-serif; font-size: 14px; line-height: 20px; color: #555555;">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <p style="color: #040e66; font-weight: bold;">Olá, cliente!</p>
+              Você entrou em contato com a Central e Atendimento para pedir o <strong>estorno de uma compra,</strong>
+              certo? &nbsp;Conforme as medidas provisórias n° 925 e 948, sempre que a compra ou a reserva feita com o
+              seu cartão Itaucard seja relacionada a turismo, viagens ou cultura, orientamos que <strong>você entre em
+                contato direto com o estabelecimento em que realizou a compra</strong> para resolver a questão da melhor
+              forma&nbsp;possível.</p>
+
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="background-color:#fff0ae; text-align: left; padding: 20px 60px 30px 60px; font-family: sans-serif; font-size: 14px; line-height: 20px; color: #555555;">
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+            <p>Conforme as medidas provisórias n° 925 e 948, as empresas responsáveis pelas vendas e reservas
+              relacionadas aos setores mencionados acima não tem obrigação de devolver o valor pago, entretanto elas
+              precisam assegurar as seguintes&nbsp;medidas:</p>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td
+          style="background-color:#fff0ae; padding: 10px 50px; line-height: 20px; color:#555555; font-family: sans-serif; font-size: 12px; text-align: left">
+
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+            <img src="../teste_dev_front/images/IADC04.png" width="60px" height="auto" alt="servicos" border="0"
+              style=" float: left; margin-right: 20px;">
+            <p style="border-bottom: 1px solid #fd6600; padding-bottom:30px;"><span
+                style="color:#040e66;font-weight: bold; padding: 10px 0">Remarcação de serviços, </span>reservas e
+              eventos cancelados;</p>
+
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td
+          style="background-color:#fff0ae; padding: 10px 50px; line-height: 20px; color:#555555; font-family: sans-serif; font-size: 12px; text-align: left;">
+
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+            <img src="../teste_dev_front/images/IADC05.png" width="60px" height="auto" alt="servicos" border="0"
+              style=" float: left; margin-right: 20px; padding: 10px 0">
+            <p style="border-bottom: 1px solid #fd6600; padding-bottom: 20px;"><span
+                style="color:#040e66; font-weight: bold;">Disponibilização de crédito para uso ou abatimento na compra
+              </span>de outros serviços, reservas e eventos, disponíveis nas respectivas empresas, ou outro acordo a ser
+              formalizado com o consumidor;</p>
+
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="background-color:#fff0ae; padding: 10px 50px; line-height: 20px; color:#555555; font-family: sans-serif; font-size: 12px; text-align: left;">
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+            <img src="../teste_dev_front/images/IADC06.png" width="60px" height="auto" alt="servicos" border="0"
+              style="float: left; margin-right: 20px; padding: 10px 0">
+            <p style="border-bottom: 1px solid #fd6600; padding-bottom: 20px;"><span
+                style="color:#040e66; font-weight: bold">Remarcação para os próximos 12 meses sem custo adicional para
+                passagens </span>compradas até 31 de dezembro de 2020. O passageiro pode solicitar cancelamento, mas,
+              nesse caso, poderá ser cobrada uma eventual penalidade prevista em contrato, e o crescimento pode ser
+              feito em até 12x.</p>
+
+          </table>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td
+          aria-hidden="true"
+          height="40"
+          style="font-size: 0px; line-height: 0px"
+        >
+          &nbsp;
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 0 15px;">
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="border: 1px solid #fd6600;
+                                        border-radius: 1em;">
+        </td>
+      </tr>
+
+      <tr>
+        <td style="
+                                    padding: 10px 50px;
+                                    font-family: sans-serif;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    color: #040e66;
+                                    text-align: center;
+                                    font-weight: bold;
+                                   
+                                  ">
+          <p>
+
+            Confira na íntegra as duas medidas provisórias e entenda quais são seus direitos:
+          </p>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td style="padding: 10px;">
+          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <th valign="top" width="50%">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="text-align: center; padding: 0 10px">
+                      <img src="../teste_dev_front/images/IADC07.png" width="290" height="" alt="alt_text" border="0"
+                        style="
+                                                width: 100%;
+                                                max-width: 290px;
+                                                height: auto;
+                                              
+                                              " />
+                    </td>
+                  </tr>
+
+                </table>
+              </th>
+              <th valign="top" width="50%">
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                  <tr>
+                    <td style="text-align: center; padding: 0 10px">
+                      <img src="../teste_dev_front/images/IADC08.png" width="290" height="" alt="alt_text" border="0"
+                        style="
+                                                width: 100%;
+                                                max-width: 290px;
+                                                height: auto;
+                                              
+                                              " />
+                    </td>
+                  </tr>
+
+                </table>
+              </th>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+    </table>
+    </td>
+    </tr>
+    <tr>
+      <td
+        aria-hidden="true"
+        height="40"
+        style="font-size: 0px; line-height: 0px"
+      >
+        &nbsp;
+      </td>
+    </tr>
+  
+
+
+  <td width="25%" valign="top" class="stack-column-center" style="background-color:#fff0ae; ">
+    <table
+      role="presentation"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+    >
+
+
+    <th width="25%" valign="top" class="stack-column-center">
+      <table
+        role="presentation"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+      >
+        <tr>
+          <td dir="ltr" valign="top" style="padding: 20px 40px; font-family: sans-serif; font-size: 12px; text-align: left;  line-height: 20px; ">
+            <h3 style="color:#fd6600; font-weight: bold;"> Acesse nossos canais digitais.</h3>
+            <p style="color: #040e66;">
+              Durante esse momento delicado, nossas centrais estão operando com capacidade reduzida. Dê preferência aos canais digitais.
+            </p>
+
+          </td>
+        </tr>
+
+      </table>
+
+   
+
+     <th width="2%" valign="top" class="stack-column">
+      <table
+        role="presentation"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+      > 
+          <tr>
+            <td dir="auto" valign="top" style="padding: 30px 10px;">
+              <img src="../teste_dev_front/images/IADC11.png" width="" height="100px" />
+            </td>
+          </tr>
+
+      </table>
+
+    </th> 
+
+  </th>
+
+
+    <!-- Column : INICIO -->
+    <th width="25%" class="stack-column-center">
+      <table
+        role="presentation"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+      >
+        <tr>
+          <td
+            dir="ltr"
+            valign="top"
+            style="
+              font-family: sans-serif;
+              font-size: 15px;
+              line-height: 20px;
+              color: #555555;
+              padding: 10px;
+              text-align: left;
+            "
+            class="center-on-narrow"
+          >
+            <h2
+              style="
+                margin: 0 0 10px 0;
+                font-family: sans-serif;
+                font-size: 18px;
+                line-height: 22px;
+                color: #333333;
+                font-weight: bold;
+              "
+            >
+              Class aptent taciti sociosqu
+            </h2>
+            <p style="margin: 0 0 10px 0">Maecenas sed ante..</p>
+            <!-- Button : INICIO -->
+            <table
+              role="presentation"
+              cellspacing="0"
+              cellpadding="0"
+              border="0"
+              class="center-on-narrow"
+              style="float: left"
+            >
+              <tr>
+                <td
+                  class="button-td button-td-primary"
+                  style="border-radius: 4px; background: #222222"
+                >
+                  <a
+                    class="button-a button-a-primary"
+                    href="https://google.com/"
+                    style="
+                      background: #222222;
+                      border: 1px solid #000000;
+                      font-family: sans-serif;
+                      font-size: 15px;
+                      line-height: 15px;
+                      text-decoration: none;
+                      padding: 13px 17px;
+                      color: #ffffff;
+                      display: block;
+                      border-radius: 4px;
+                    "
+                    >Button</a
+                  >
+                </td>
+              </tr>
+            </table>
+            <!-- Button : FIM -->
+
+            
+
+
+
+          
+
+
+          </td>
+        </tr>
+      </table>
+    </th>
+    <!-- Column : FIM -->
+  </tr>
+</table>
+
+</td>
+</tr>
+
+
+
+
+
+
+
+      <!-- <tr>
+        <td style="padding: 0 40px; width: 100%;
+        max-width: 135px;
+        height: auto;
+        font-family: sans-serif;
+        font-size: 15px;
+        line-height: 15px;">
+          <h3 style="color: #fd6600; font-weight:bolder;" >Acesse nossos canais digitais.</h3>
+          <p style="color: #040e66;"
+           > Durante esse momento delicado, nossas centrais estão operando com capacidade reduzida. Dê preferência aos canais digitais.
+            </p>
+          
+        </td>
+      </tr>
+   
+   
+
+
+
+
+  <th width="25%" class="stack-column-center">
+    <table
+      role="presentation"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+    >
+      <tr>
+        <td
+          dir="ltr"
+          valign="top"
+          style="
+            font-family: sans-serif;
+            font-size: 15px;
+            line-height: 20px;
+            color: #555555;
+            padding: 10px;
+            text-align: left;
+          "
+          class="center-on-narrow"
+        >
+
+
+
+
+          <h2
+            style="
+              margin: 0 0 10px 0;
+              font-family: sans-serif;
+              font-size: 18px;
+              line-height: 22px;
+              color: #333333;
+              font-weight: bold;
+            "
+          >
+            Class aptent taciti sociosqu
+          </h2>
+          <p style="margin: 0 0 10px 0">Maecenas sed ante..</p>
+           Button : INICIO 
+          <table
+            role="presentation"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            class="center-on-narrow"
+            style="float: left"
+          >
+            <tr>
+              <td
+                class="button-td button-td-primary"
+                style="border-radius: 4px; background: #222222"
+              >
+                <img
+                  class="button-a button-a-primary"
+                  href="https://google.com/"
+                  style="
+                    background: #222222;
+                    border: 1px solid #000000;
+                    font-family: sans-serif;
+                    font-size: 15px;
+                    line-height: 15px;
+                    text-decoration: none;
+                    padding: 13px 17px;
+                    color: #ffffff;
+                    display: block;
+                    border-radius: 4px;
+                  "
+                  />
+                >
+              </td>
+            </tr>
+          </table>
+           Button : FIM 
+        </tr>
+    </table>
+    </td>
+  </tr>
+ -->
+
+
+
+
+</table>
+</td>
+
+
+
+
+    </table>
+  </center>
+</body>
+
+</html>
