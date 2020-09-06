@@ -50,16 +50,16 @@
       margin: 0 auto !important;
     }
 
-    a {
+    /* a {
       text-decoration: none;
-    }
+    } */
 
     img {
       -ms-interpolation-mode: bicubic;
     }
 
-    a[x-apple-data-detectors],
-    /* iOS */
+   /* a[x-apple-data-detectors],
+    iOS 
     .unstyle-auto-detected-links a,
     .aBn {
       border-bottom: 0 !important;
@@ -70,7 +70,7 @@
       font-family: inherit !important;
       font-weight: inherit !important;
       line-height: inherit !important;
-    }
+    }*/
 
     .im {
       color: inherit !important;
@@ -81,7 +81,6 @@
       opacity: 0.01 !important;
     }
 
-    /* Se o acima não funcionar, adicione uma classe .g-img a qualquer imagem em questão. */
     img.g-img+div {
       display: none !important;
     }
@@ -120,11 +119,6 @@
 
       }
 
-      .img11 {
-        display: none;
-        padding: 0;
-      }
-
       .stack-column,
       .stack-column-center {
         display: block !important;
@@ -152,6 +146,11 @@
       .hideThis {
         display: none !important;
       }
+
+      .img11 {
+        display: none;
+        padding: 0;
+      }
     }
   </style>
 </head>
@@ -170,7 +169,7 @@
       background-color: #ffffff;
     ">
   <center style="width: 100%; background-color: #ffffff">
-    <div style="
+    <div  style="
         display: none;
         font-size: 1px;
         line-height: 1px;
@@ -180,62 +179,80 @@
         overflow: hidden;
         mso-hide: all;
         font-family: sans-serif;
+        
       ">
+      Precisa estornar uma compra devido à Covid-19?
+      Entenda o que você precisa fazer nesse momento.
     </div>
 
     <div
       style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
       &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
     </div>
-
+     <!-- Email Body : INICIO -->
     <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="640"
       style="margin: auto;" class="email-container">
+     
       <!-- Email Header : INICIO -->
       <tr>
-        <img src="../teste_dev_front/images/IADC01.png" width="80%" height="auto" alt="logo_itaucard" border="0"
-          style="max-width: 640px; margin: auto;  padding: 20px; ">
+        <td
+        align="right"
+        style="padding: 20px 0; text-align: right !important"
+        >
+
+          <img src="../teste_dev_front/images/IADC01.png" width="80%" height="auto" alt="logo_itaucard" border="0"
+          style="max-width: 640px; margin: auto; 
+          "
+          />
         </td>
       </tr>
+      <!-- Email Header : FIM -->
+      
       <tr>
         <td style="background-color: #fd6600;">
-
           <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
             <tr>
               <td style="padding: 10px 30px; max-width: 640px; display:block ;">
-                <img src="../teste_dev_front/images/IADC02.png" width="100%" height="auto" alt="img-avião" border="0">
-                <img src="../teste_dev_front/images/IADC03.png" width="100%" height="auto" alt="texto" border="0">
+                <img src="../teste_dev_front/images/IADC02.png" width="100%" height="auto" alt="img-avião" border="0"
+                />
+                <img src="../teste_dev_front/images/IADC03.png" width="100%" height="auto" alt="texto" border="0"
+                class="g-img"/>
               </td>
             </tr>
           </table>
         </td>
       </tr>
+
       <tr>
         <td
           style="text-align: left; padding: 20px 60px 30px 60px; font-family: sans-serif; font-size: 14px; line-height: 20px; color: #555555;">
-          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-            <tr>
-              <p style="color: #040e66; font-weight: bold;">Olá, cliente!</p>
-              Você entrou em contato com a Central e Atendimento para pedir o <strong>estorno de uma compra,</strong>
-              certo? &nbsp;Conforme as medidas provisórias n° 925 e 948, sempre que a compra ou a reserva feita com o
-              seu cartão Itaucard seja relacionada a turismo, viagens ou cultura, orientamos que <strong>você entre em
-                contato direto com o estabelecimento em que realizou a compra</strong> para resolver a questão da melhor
-              forma&nbsp;possível.</p>
-
-            </tr>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%"
+          >
+           <tr>
+              <td>
+                <p style="color: #040e66; font-weight: bold;">Olá, cliente!</p>
+                Você entrou em contato com a Central e Atendimento para pedir o <strong>estorno de uma compra,</strong>
+                certo? &nbsp;Conforme as medidas provisórias n° 925 e 948, sempre que a compra ou a reserva feita com o
+                seu cartão Itaucard seja relacionada a turismo, viagens ou cultura, orientamos que <strong>você entre em
+                  contato direto com o estabelecimento em que realizou a compra</strong> para resolver a questão da melhor
+                forma&nbsp;possível.</p>
+              </td>
+           </tr>
           </table>
         </td>
       </tr>
-      <tr>
-        <td
+      
+     <tr>
+       <td
           style="background-color:#fff0ae; text-align: left; padding: 20px 60px 30px 60px; font-family: sans-serif; font-size: 14px; line-height: 20px; color: #555555;">
-          <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 
             <p>Conforme as medidas provisórias n° 925 e 948, as empresas responsáveis pelas vendas e reservas
               relacionadas aos setores mencionados acima não tem obrigação de devolver o valor pago, entretanto elas
               precisam assegurar as seguintes&nbsp;medidas:</p>
-          </table>
-        </td>
-      </tr>
+         </table>
+       </td>
+     </tr>
 
       <tr>
         <td
@@ -244,8 +261,9 @@
           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 
             <img src="../teste_dev_front/images/IADC04.png" width="60px" height="auto" alt="servicos" border="0"
-              style=" float: left; margin-right: 20px;">
-            <p style="border-bottom: 1px solid #fd6600; padding-bottom:35px;"><span
+            style=" float: left; margin-right: 20px;"
+            />
+              <p style="border-bottom: 1px solid #fd6600; padding-bottom:35px;"><span
                 style="color:#040e66;font-weight: bold; padding: 10px 0">Remarcação de serviços, </span>reservas e
               eventos cancelados;</p>
 
@@ -260,7 +278,7 @@
           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 
             <img src="../teste_dev_front/images/IADC05.png" width="60px" height="auto" alt="servicos" border="0"
-              style=" float: left; margin-right: 20px; padding: 10px 0">
+              style=" float: left; margin-right: 20px; padding: 10px 0"/>
             <p style="border-bottom: 1px solid #fd6600; padding-bottom: 20px;"><span
                 style="color:#040e66; font-weight: bold;">Disponibilização de crédito para uso ou abatimento na compra
               </span>de outros serviços, reservas e eventos, disponíveis nas respectivas empresas, ou outro acordo a ser
@@ -275,7 +293,8 @@
           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
 
             <img src="../teste_dev_front/images/IADC06.png" width="60px" height="auto" alt="servicos" border="0"
-              style="float: left; margin-right: 20px; padding: 10px 0">
+              style="float: left; margin-right: 20px; padding: 10px 0"/>
+
             <p style="border-bottom: 1px solid #fd6600; padding-bottom: 20px;"><span
                 style="color:#040e66; font-weight: bold">Remarcação para os próximos 12 meses sem custo adicional para
                 passagens </span>compradas até 31 de dezembro de 2020. O passageiro pode solicitar cancelamento, mas,
@@ -378,14 +397,14 @@
   
 
 
-  <td width="25%" valign="top"  style=" padding: 0 50px;background-color:#fff0ae; ">
+  <td width="25%" valign="top"  style=" padding: 0 25px;background-color:#fff0ae; ">
     <table
       role="presentation"
       border="0"
       cellpadding="0"
       cellspacing="0"
       width="100%"
-     style="border-bottom: 3px solid #a59e9e; "
+      style="border-bottom: 3px solid #dbd8d8 "
     >
 
 
@@ -398,9 +417,9 @@
         width="100%"
       >
         <tr>
-          <td dir="ltr" valign="top" style="padding: 20px 40px; font-family: sans-serif; font-size: 12px; text-align: left;  line-height: 20px; ">
+          <td dir="ltr" valign="top" style="padding: 20px 20px; font-family: sans-serif; font-size: 12px; text-align: left;   ">
             <h3 style="color:#fd6600; font-weight: bold;"> Acesse nossos canais digitais.</h3>
-            <p style="color: #040e66;">
+            <p style="color: #040e66;line-height: 20px;">
               Durante esse momento delicado, nossas centrais estão operando com capacidade reduzida. Dê preferência aos canais digitais.
             </p>
 
@@ -421,7 +440,7 @@
       > 
           <tr>
             <td dir="ltr" valign=" top" style="padding: 20px 10px;" class="img11">
-              <img src="../teste_dev_front/images/IADC11.png" width="" height="120px" class="img11" />
+              <img src="../teste_dev_front/images/IADC11.png" width="3px" height="120px" class="img11" />
             </td>
           </tr>
 
@@ -493,6 +512,8 @@
         </tr>
       </table>
     </th>
+
+    
     <!-- Column : FIM -->
 </table>
   </td>
@@ -521,7 +542,7 @@
               width="100%"
             >
               <tr>
-                <td style="padding: 0px 50px; text-align: left;  font-family: sans-serif;
+                <td style="padding: 0px 30px; text-align: left;  font-family: sans-serif;
                 font-size: 12px;
                 color: #040e66;
                 font-weight: bold; 
@@ -533,10 +554,9 @@
               <tr>
                 <td
                   style="
-                   padding: 0px 50px; text-align: left;  font-family: sans-serif;
+                   padding: 0px 30px; text-align: left;  font-family: sans-serif;
                 font-size: 12px;
                 color: #040e66;
-                font-weight: bold
                   "
                  class="center-on-narrow"
                 >
@@ -558,8 +578,8 @@
               width="100%"
             >
               <tr>
-                <td style="padding: 0px 50px; text-align: left;  font-family: sans-serif;
-                font-size: 12px;
+                <td style="  padding: 0px 30px;text-align: left;  font-family: sans-serif;
+                font-size: 12px ;
                 color: #040e66;
                 font-weight: bold;
                 background-color: #fff0ae;"
@@ -572,10 +592,9 @@
               <tr>
                 <td
                   style="
-                   padding: 0px 50px; text-align: left;  font-family: sans-serif;
+                   padding: 0px 30px;  text-align: left;  font-family: sans-serif;
                 font-size: 12px;
                 color: #040e66;
-                font-weight: bold
                   "
                  class="center-on-narrow"
                 >
@@ -597,7 +616,7 @@
               width="100%"
             >
               <tr>
-                <td style=" padding: 0px 20px; text-align: left;  font-family: sans-serif;
+                <td style="  text-align: left;  font-family: sans-serif;
                 font-size: 12px;
                 color: #040e66;
                 font-weight: bold;
@@ -609,14 +628,15 @@
                 <p>Deficiente auditivo/fala</p>
                  
                 </td>
+                
               </tr>
               <tr>
                 <td
                   style="
-                     padding: 0px 50px; text-align: left;  font-family: sans-serif;
+                    text-align: left;  font-family: sans-serif;
                 font-size: 12px;
                 color: #040e66;
-                font-weight: bold;
+              
                 
                   "
                   class="center-on-narrow"
@@ -626,6 +646,10 @@
                   </p>
                 </td>
               </tr>
+
+
+
+              
             </table>
           </th>
           <!-- Column : FIM -->
